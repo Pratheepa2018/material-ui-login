@@ -1,9 +1,11 @@
 import React from 'react';
 import { Route, Redirect } from 'react-router-dom';
+import Auth from '../../Layout/Authentication';
+
 //import { isLogin } from '../utils';
-const isLogin = () => false;
+const isLogin = () => Auth.isAuthenticated();
 const PrivateRoute = ({component: Component, ...rest}) => {
-    alert (JSON.stringify(rest))
+    //alert('priveat');
     return (
 
         // Show the component only when the user is logged in

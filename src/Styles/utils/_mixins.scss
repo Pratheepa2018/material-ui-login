@@ -1,0 +1,10 @@
+@import "./variable";
+
+@mixin prefixer($key, $value) {
+  -webkit-#{$key}: #{$value};
+  -moz-#{$key}: #{$value};
+  -ms-#{$key}: #{$value};
+  -o-#{$key}: #{$value};
+  #{$key}: #{$value};
+}
+

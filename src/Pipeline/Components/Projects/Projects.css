@@ -1,0 +1,65 @@
+.container {
+  padding: 40px;
+}
+section {
+  margin-bottom: 30px;
+}
+.title {
+  padding: 10px;
+  h2 {
+    padding: 3px;
+  }
+}
+.title h2 {
+  padding: 3px;
+}
+button.rightButton {
+  position: absolute;
+  right: 20px;  
+  margin-top: -35px;
+}
+.activeChkbox {
+  display: inline;
+}
+.innercard {
+  display: flex;
+}
+.innercard > div {
+  display: flex;
+  flex-direction: column;
+  width: 150px;
+  border: 1px solid #ccc;
+  margin: 10px;
+}
+svg {
+  width: 24px;
+  height: 24px;
+  vertical-align: middle;
+  margin-right: 5px;
+}
+.heading {
+  padding: 5px;
+  border-bottom: 1px solid #ccc;
+}
+.body {
+  padding: 5px;;
+}
+.heading span {
+  color: blue;
+  vertical-align: middle;
+}
+.body svg {
+  width: 50px;
+  height: 50px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+
+}
+.bold {
+  font-weight: bold;
+}
+div.MuiFormControl-root {
+  width: 100%;
+  margin-top: 16px;
+}

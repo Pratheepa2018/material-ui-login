@@ -1,0 +1,23 @@
+.banner_body{
+    background-size: cover;
+    padding: 30px;
+    min-height: 225px;
+}
+.textbody{
+    display: inline-block;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, .5);
+    color: #fff;
+}
+.desh_card{height: 100%;}
+.MuiBreadcrumbs-ol *{color: #fff;}
+
+.gif{
+    display: unset;
+    position: absolute;
+    right: 159px;
+}
+
+@media(max-width:767px){
+    .banner_body h1{font-size: 30px;}
+}

@@ -1,0 +1,5 @@
+.MuiFormHelperText-root.Mui-error {
+  margin-left: 0;
+  position: absolute;
+  top: 100%;
+}

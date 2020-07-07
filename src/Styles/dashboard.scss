@@ -1,0 +1,37 @@
+@import './utils/mixins';
+
+.grid_img{max-width: 100%;}
+.grid_card {height: 100%;}
+.center{text-align:center;}
+.center *{justify-content: center;}
+
+.dashboard-grid-container {
+  .box-figure {
+    height: 0;
+    margin: 0;
+    padding-bottom: 56.25%;
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+
+    img {
+      height: 100%;
+      position: absolute;
+      left: 0;
+      right: 0;
+      top: 0;
+      bottom: 0;
+      object-fit: contain;
+      width: 100%;
+    }
+  }
+  .MuiTypography-root {
+    font-size: 18px;
+  }
+  .dashboard-grid-action {
+    .MuiButtonBase-root {
+      margin-bottom: 15px;
+      text-transform: capitalize;
+    }
+  }
+}

@@ -59,7 +59,7 @@ class SignUp extends Component {
                     required
                     fullWidth
                     name="password"
-                    label="Password"
+                    label="Confirm Password"
                     type="password"
                     id="password"
                     autoComplete="current-password"

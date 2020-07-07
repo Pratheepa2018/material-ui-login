@@ -1,0 +1,10 @@
+.mobile_menu_icon{
+    display: none;
+}
+.MuiPaper-root .MuiDrawer-paper .makeStyles-drawerOpen-10 .MuiDrawer-paperAnchorLeft .MuiDrawer-paperAnchorDockedLeft .MuiPaper-elevation0
+{
+    background-color: #1a2038;
+    /* color: white; */
+}
+footer .footerbody{ justify-content: center;}
+footer .footerbody a{padding: 2px 15px;}
